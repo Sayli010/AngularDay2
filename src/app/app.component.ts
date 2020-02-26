@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Day2';
+  data = "This is parent component data";
+
+  detectEvent(value){
+    this.title = value
+  }
 }
